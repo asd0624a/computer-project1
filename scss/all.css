@@ -10817,4 +10817,32 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+header {
+  display: flex;
+  background-color: #f9f6f8;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header section.logo {
+  display: flex;
+  flex: 1 1 300px;
+  align-items: center;
+}
+header section.logo img {
+  width: 5vw;
+  height: 5vw;
+}
+header nav {
+  border: 10px;
+  flex: 5 1 300px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+header nav ul li a {
+  color: #0072E3;
+  text-decoration: none;
 }/*# sourceMappingURL=all.css.map */
