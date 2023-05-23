@@ -1,12 +1,17 @@
+header {
+    nav {
+        padding: 0px;
+        div {
+            
+            a.headertop {
+                font-size: 24px;
 
-header{
-    nav{
-        a.headertop{
-            font-size: 24px;
-            img{
-                width: 4vw;
-                height: 4vw;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
             }
         }
+
     }
 }

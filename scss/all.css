@@ -10818,12 +10818,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header nav a.headertop {
+header nav {
+  padding: 0px;
+}
+header nav div a.headertop {
   font-size: 24px;
 }
-header nav a.headertop img {
-  width: 4vw;
-  height: 4vw;
+header nav div a.headertop img {
+  width: 30px;
+  height: 30px;
 }
 
 div.offcanvas-body ul li {
@@ -10833,4 +10836,14 @@ div.offcanvas-body ul li {
 }
 div.offcanvas-body ul li a {
   margin: 0 0 0 0.5rem;
+}
+
+main div div img {
+  display: block;
+  max-width: 100%;
+  height: 40vw;
+}
+
+main {
+  margin-top: 50px;
 }/*# sourceMappingURL=all.css.map */
