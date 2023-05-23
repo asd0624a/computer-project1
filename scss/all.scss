@@ -1,6 +1,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // container
+@import "./container/body.scss";
 @import "./container/header.scss";
 @import "./container/offcanvasbar.scss";
 @import "./container/pcimage.scss";
