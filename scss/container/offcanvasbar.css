@@ -1,0 +1,8 @@
+div.offcanvas-body ul li {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+div.offcanvas-body ul li a {
+  margin: 0 0 0 0.5rem;
+}/*# sourceMappingURL=offcanvasbar.css.map */

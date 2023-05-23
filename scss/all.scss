@@ -1,38 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-header {
-    display: flex;
-    background-color: #f9f6f8;
-    flex-wrap: wrap;
-    align-items: center;
-
-    section.logo {
-        display: flex;
-        flex: 1 1 300px;
-        align-items: center;
-
-        img {
-            width: 5vw;
-            height: 5vw;
-        }
-    }
-
-    nav {
-        border: 10px ;
-        flex: 5 1 300px;
-
-        ul {
-            display: flex;
-            list-style-type: none;
-            justify-content: space-around;
-
-            li {
-                a {
-                    color: #0072E3;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-
-}
+// container
+@import "./container/header.scss";
+@import "./container/offcanvasbar.scss";
