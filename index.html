@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="auther" content="JeffChiang">
-    <link rel="icon" href="./img/PC.png">
-    <link rel="stylesheet" href="./scss/all.css">
-    <title>微風電腦小舖</title>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="auther" content="JeffChiang">
+        <link rel="icon" href="./img/PC.png">
+        <link rel="stylesheet" href="./scss/all.css">
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <title>微風電腦小舖</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand headertop" href="./index.html">
                     <img src="./img/Service.png" alt="computer">微風電腦小舖</a>
-                <!-- <a class="navbar-brand headertop" href="./shoppingcart.html"><img src="./img/shoppingcart.png" alt="shoppingcart"></a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -64,8 +64,15 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <main>
+        <div id="PC" class="carousel slide container-md gx-0" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#PC" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#PC" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#PC" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#PC" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./img/PC1.jpg">
@@ -74,29 +81,59 @@
                     <img src="./img/PC2.jpg">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/PC3.jpg">
+                    <img src="./img/PC3.jpg">   
                 </div>
                 <div class="carousel-item">
                     <img src="./img/PC4.jpg">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            <button class="carousel-control-prev" type="button" data-bs-target="#PC"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            <button class="carousel-control-next" type="button" data-bs-target="#PC"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div>
+        <div class="container-md gx-0">
             <h1>硬體新資訊</h1>
+            <div class="news row">
+                <div class="col-12 col-md-6 mt-2">
+                    <div class="news-img"><img src="./img/4060Ti.jpg" alt="4060Ti"></div>
+                    <div class="news-text"><a href="https://www.mobile01.com/topicdetail.php?f=298&t=6789605" target="_blank">NVIDIA GeForce RTX 4060 Ti FE 創始版顯示卡開箱實測以1080p效能導向的主流新兵</a></div>
+                </div>
+                <div class="col-12 col-md-6 mt-2">
+                    <div class="news-img"><img src="./img/Intelevo.jpg" alt="intel"></div>
+                    <div class="news-text"><a href="https://www.mobile01.com/topicdetail.php?f=296&t=6789007" target="_blank">Intel 第 13 代 Evo 平台實機體驗 新增手機整合功能搭配長續航力的行動工作夥伴</a></div>
+                </div>
+                <div class="col-12 col-md-6 mt-2">
+                    <div class="news-img"><img src="./img/AMD.jpg" alt="AMD"></div>
+                    <div class="news-text"><a href="https://www.mobile01.com/topicdetail.php?f=296&t=6789611">AMD 推出 Ryzen／Athlon 7020 C 系列處理器 提供 Chromebook 等級筆電更高效能與更長使用續航力</a></div>
+                </div>
+                <div class="col-12 col-md-6 mt-2">
+                    <div class="news-img"><img src="./img/ROG.jpg" alt="ROG"></div>
+                    <div class="news-text"><a href="https://www.mobile01.com/topicdetail.php?f=350&t=6786830">ROG SWIFT OLED PG27AQDM 電競螢幕開箱測試 高顯色快反應高對比帶來的遊戲畫面震撼</a></div>
+                </div>
+                <div class="col-12 col-md-6 mt-2">
+                    <div class="news-img"><img src="./img/4070.jpg" alt="4070"></div>
+                    <div class="news-text"><a href="https://www.mobile01.com/topicdetail.php?f=298&t=6776068">ASUS GeForce RTX 4070 Dual 顯示卡開箱實測 散熱造型雙重升級的效能小巨人</a></div>
+                </div>
+                <div class="col-12 col-md-6 mt-2">
+                    <div class="news-img"><img src="./img/GSKILL.jpg" alt="Gskill"></div>
+                    <div class="news-text"><a href="https://www.mobile01.com/topicdetail.php?f=489&t=6775525">G.Skill 芝奇 Trident Z5 RGB DDR5-6800 CL34 記憶體模組套裝開箱試用 以高頻低延遲設定達成高性能表現</a></div>
+                </div>
+            </div>
+            
+            
         </div>
     </main>
-    <footer></footer>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <br>
+    <footer>
+        
+    </footer>
 </body>
 
 </html>
