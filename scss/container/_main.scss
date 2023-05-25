@@ -1,5 +1,20 @@
 main {
-    margin-top: 55px;
+    h1 {
+        background-color: #6b7c7c;
+        color: whitesmoke;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+    }
+}
+
+main.news {
+    div.mainbc {
+        background-color: #748b8b;
+        border-radius: 10px 10px 0 0;
+
+    }
 
     .carousel-inner {
         img {
@@ -10,7 +25,7 @@ main {
         }
     }
 
-    .news {      
+    .news {
 
         .news-img {
             img {
@@ -36,9 +51,32 @@ main {
 
         .news-text:hover {
             background-color: #485756;
-            a{
+
+            a {
                 color: #83b0ef;
             }
+        }
+    }
+}
+
+main.product {
+    div.productbc {
+        background-color: #748b8b;
+        border-radius: 10px 10px 0 0;
+
+        div.row {
+            div {
+            //    margin: 0.1rem;
+            
+            }
+        }
+    }
+
+    div {
+        border: 1px solid red;
+
+        div {
+            border: 1px solid blue;
         }
     }
 }
