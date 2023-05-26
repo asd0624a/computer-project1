@@ -2,7 +2,7 @@ main {
     h1 {
         background-color: #6b7c7c;
         color: whitesmoke;
-        border-radius: 10px 10px 0 0;
+        border-radius: 0.375rem 0.375rem 0 0;
         text-align: center;
         margin: 0;
         padding: 10px 0;
@@ -12,7 +12,7 @@ main {
 main.news {
     div.mainbc {
         background-color: #748b8b;
-        border-radius: 10px 10px 0 0;
+        border-radius: 0.375rem 0.375remx 0 0;
 
     }
 
@@ -29,20 +29,20 @@ main.news {
 
         .news-img {
             img {
-                border-radius: 15px 15px 0 0;
+                border-radius: 0.375rem 0.375rem 0 0;
                 width: 100%;
             }
         }
 
         .news-text {
-            border-radius: 0 0 15px 15px;
+            border-radius: 0 0 0.375rem 0.375rem;
             background-color: #092020;
 
             a {
                 color: whitesmoke;
                 text-decoration: none;
-                font-size: 1.5rem;
-                padding: 5px;
+                font-size: 2rem;
+                padding: 1rem;
 
             }
 
@@ -62,21 +62,30 @@ main.news {
 main.product {
     div.productbc {
         background-color: #748b8b;
-        border-radius: 10px 10px 0 0;
+        border-radius: 0.375rem 0.375rem 0 0;
 
-        div.row {
-            div {
-            //    margin: 0.1rem;
-            
+        div.product-item {
+            margin: 0.5rem;
+            background-color: #485756;
+            border-radius: 0.375rem;
+
+            img {
+                max-width: 100%;
+                border-radius: 0.375rem 0.375rem 0 0;
+            }
+
+            h5 {
+                color: whitesmoke;
+                padding: 0.2rem;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+
+            p {
+                color: grey;
+                padding: 0.2rem;
             }
         }
     }
 
-    div {
-        border: 1px solid red;
-
-        div {
-            border: 1px solid blue;
-        }
-    }
 }
