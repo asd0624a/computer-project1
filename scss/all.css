@@ -10848,6 +10848,19 @@ main h1, main .h1 {
   margin: 0;
   padding: 10px 0;
 }
+main .gotop {
+  background-color: rgba(128, 128, 128, 0.5);
+  position: fixed;
+  text-align: center;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 15%;
+  color: #fff;
+  display: none;
+  z-index: 999;
+}
 
 main.news div.mainbc {
   background-color: #748b8b;

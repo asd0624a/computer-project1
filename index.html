@@ -9,6 +9,8 @@
     <link rel="icon" href="./img/PC.png">
     <link rel="stylesheet" href="./scss/all.css">
     <title>微風電腦小舖</title>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
 </head>
 
 <body>
@@ -64,7 +66,11 @@
         </nav>
     </header>
     <main class="news">
-        <div id="PC" class="carousel slide container-md gx-0" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="gotop">
+            <div><img src="./img/top.png" alt=""></div>
+            <p>Top</p>
+        </div>
+        <div id="PC" class="carousel slide container gx-0" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#PC" data-bs-slide-to="0" class="active" aria-current="true"
                     aria-label="Slide 1"></button>
@@ -131,7 +137,7 @@
     <footer>
 
     </footer>
-    
+    <script src="./JS/top.js"></script>
 </body>
 
 </html>
