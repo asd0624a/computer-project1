@@ -70,18 +70,29 @@
     </header>
     <main class="product container">
         <div class="gotop">
-            <div><img src="./img/top.png" alt=""></div>
+            <div><img src="./img/top.png" alt="" class="img-fluid"></div>
             <p>Top</p>
+        </div>
+        <div class="shopping">
+            <i class="bi bi-cart-x"></i>
+            <div class="shoppingAmout">0</div>
         </div>
         <div class="productbc gx-0">
             <h1>產品列表</h1>
             <div class="row gx-0">
-                <div id="" class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div id="shop" class="product-shop col-12 col-md-6 col-lg-4 col-xl-3">
                     <div class="product-item card"><img src="./img/cpuimg.jpg" class="" alt="">
                         <h5>產品名稱</h5>
                         <p>產品說明</p>
-                        <a href="#" class="btn btn-primary">加入購物車</a>
-
+                        <div class="price-quantity">
+                            <h2>$100</h2>
+                            <div class="buttons">
+                                <i class="bi bi-dash-lg"></i>
+                                <div class="quantity">0</div>
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
                 <div id="" class="col-12 col-md-6 col-lg-4 col-xl-3">
@@ -168,6 +179,7 @@
     </main>
     <footer></footer>
     <script src="./JS/top.js"></script>
+    <script src="./JS/shoppinngcart.js"></script>
 </body>
 
 </html>

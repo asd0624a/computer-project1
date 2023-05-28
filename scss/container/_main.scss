@@ -20,7 +20,7 @@ main {
         color: #fff;
         display: none;
         z-index: 999;
-        
+
 
     }
 
@@ -78,7 +78,33 @@ main.news {
 }
 
 main.product {
-    div.productbc {
+    .shopping {
+        background-color: rgba(128, 128, 128, 0.5);
+        position: fixed;
+        text-align: center;
+        font-size: 30px;
+        bottom: 70px;
+        right: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 15%;
+        color: #fff;
+        // display: none;
+        z-index: 999;
+
+        .shoppingAmout {
+            position: absolute;
+            top: -5px;
+            right: -8px;
+            font-size: 14px;
+            background-color: red;
+            padding: 3px;
+            border-radius: 3px;
+            color: whitesmoke;
+        }
+    }
+
+    .productbc {
         background-color: #748b8b;
         border-radius: 0.375rem 0.375rem 0 0;
 
@@ -102,6 +128,25 @@ main.product {
             p {
                 color: grey;
                 padding: 0.2rem;
+            }
+
+            .price-quantity {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 0.2rem;
+                .buttons{
+                    display: flex;
+                    align-items: center;
+                    font-size: 24px;
+                    gap: 8px;
+                    .bi-dash-lg{
+                        color: red;
+                    }
+                    .bi-plus-lg{
+                        color: green;
+                    }
+                }
             }
         }
     }
