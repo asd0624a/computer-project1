@@ -10926,6 +10926,7 @@ main.product .productbc div.product-item {
   margin: 0.5rem;
   background-color: #485756;
   border-radius: 0.375rem;
+  box-shadow: 0 10px 10px black;
 }
 main.product .productbc div.product-item img {
   max-width: 100%;
